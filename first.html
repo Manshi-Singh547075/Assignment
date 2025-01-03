@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML PROJECT</title>
+    <script src="https://kit.fontawesome.com/c3cff5e070.js" crossorigin="anonymous"></script>
+    <style>
+        table{
+            border: 3px solid black;
+            height: 10px;
+            width: 1200px;
+            text-align: center;
+        }
+        #row{
+            border: 2px solid rgb(13, 13, 72);
+            text-align: left;
+
+        }
+        #col{
+            border: 2px solid rgb(13, 13, 72);
+        }
+        #cont{
+            border: 2px solid rgb(13, 13, 72);
+            width: 600px;
+        }
+        
+       video,img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border: 2px black solid;
+          }
+         i{
+            border: 2px solid white;
+            margin: 2px;
+            padding: 2px;
+            height: 15px;
+            width: 5px
+         }
+    </style>
+</head>
+<body>
+   <table cellspacing="25" cellpadding="5" style="background-color:rgb(20, 20, 88);">
+    <tr>
+        <td ><a style="color: aliceblue;" href="#contact">CONTACT</a></td>
+        <td><a style="color: aliceblue;" href="#about">ABOUT ME</a></td>
+        <td><a style="color: aliceblue;" href="#project">PROJECT</a></td>
+        <td><a style="color: aliceblue;" href="#skill">SKILLS</a> </td>
+        <td><a style="color: aliceblue;" href="#social">SOCIAL MEDIA</a></td>
+           
+</tr>
+</table>
+<div><h2 style="text-decoration:underline">LOCATON <i class="fa-solid fa-location-dot"></i></h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1750.9772019177005!2d77.08149812181429!3d28.63112862819358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0353faff6d41%3A0xd3090f1960f6e18!2sGuru%20Tegh%20Bahadur%204th%20Centenary%20Engineering%20College!5e0!3m2!1sen!2sin!4v1735546132917!5m2!1sen!2sin" width="600" height="450" style="border:2px solid black;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</div>
+
+    <div id="contact">
+        <h2 style="text-decoration:underline">CONTACT FORM <i class="fa-solid fa-address-card"></i></h2>
+        <table id="cont" cellspacing="10" cellpadding="5" >
+            <tr id="row">
+                <td> <label for="name">Name:</label></td>
+                <td><input type="text" id="name" required placeholder="Enter full name"></td>
+            </tr>
+            <tr id="row">
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" required placeholder="Enter professional email"></td>
+            </tr>
+            <tr id="row">
+                <td> <label for="password">Password:</label></td>
+                <td><input type="password" id="password" required placeholder="Set strong password"></td>
+            </tr>
+            <tr id="row">
+                <td><label for="city">City:</label></td>
+                <td><input type="text" id="city" required placeholder="Enter current city"></td>
+            </tr>
+            <tr id="row">
+                <td><label for="dob">DOB:</label>
+                </td>
+                <td><input type="date" id="dob"></td>
+            </tr>
+            <tr id="row">
+                <td><label for="gender">Gender:</label></td>
+                <td><select name="" id="">
+                    <option value="">Male</option>
+                    <option value="">Female</option>
+                    <option value="">Others</option>
+                </select></td>
+            </tr>
+            <tr id="row">
+                <td><label for="msg">Feedback:</label></td>
+                <td><textarea id="msg" rows="8" cols="25" placeholder="Provide your feedback!!"></textarea></td>
+            </tr>
+        </table>
+    </form>
+    </div>
+    <br>
+    <div id="social"><h2 style="text-decoration:underline">SOCIAL MEDIA<i class="fa-solid fa-message"></i></h2>
+        <ol style="list-style:disc">
+            <li><a href="https://www.linkedin.com/in/manshi-singh-335096294/">Linkedin</a><i class="fa-brands fa-linkedin"></i></li>
+            <li><a href="mailto:manshi547075@gmail.com">Email</a><i class="fa-solid fa-square-envelope"></i></li>
+            <li><a href="https://github.com/Manshi-Singh547075">Github</a><i class="fa-brands fa-github"></i></li>
+        </ol>
+    </div>
+    
+    <table  cellspacing="5" cellpadding="10"><h2  id="skill" style="text-decoration:underline">SKILL TABLE<i class="fa-solid fa-pen-to-square"></i></h2>
+            <tr >
+                <th>Skill Name</th>
+                <th>Proficiency</th>
+                <th>Experience</th>
+            </tr>
+        
+            <tr>
+                <td id="col">JAVA</td>
+                <td id="col"><input type="Range"></td>
+                <td id="col">2 years</td>
+            </tr>
+            <tr>
+                <td id="col">Front-End DEV</td>
+                <td id="col"><input type="range"></td>
+                <td id="col">1 year</td>
+            </tr>
+            <tr>
+                <td id="col">Problem-Solving</td>
+                <td id="col"><input type="range"></td>
+                <td id="col">3 years</td>
+            </tr>
+            <tr>
+                <td id="col">Presentation Skill</td>
+                <td id="col"><input type="range"></td>
+                <td id="col">4 years</td>
+            </tr>
+            <tr>
+                <td id="col">Leadership</td>
+                <td id="col"><input type="range"></td>
+                <td id="col">4 years</td>
+            </tr>
+    </table>
+
+    <div><h2 style="text-decoration:underline">INFORMATION<i class="fa-solid fa-address-book"></i></h2>
+        <video src="./vdo.mp4" width="600px" height="400px" controls loop autoplay></video>
+        <p>The Tic Tac Toe project is a classic implementation of the well-known two-player game. It serves as an engaging way to learn and apply programming concepts such as conditional statements, loops, functions, and data structures.</p>
+        <img src="./img2.jpeg"  width="250px" height="350px"  alt="Me"><p>
+            I am an introspective and driven individual who values continuous learning and self-improvement. While I enjoy working quietly, I’m not afraid to take on challenges or collaborate effectively in a team. I strive to make a meaningful impact through dedication and problem-solving.
+        </p>
+
+    </div>
+
+    <div><h2 id="about" style="text-decoration:underline">ABOUT ME<i class="fa-solid fa-person-dress"></i></h2>
+        <p style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
+            I am a passionate and driven tech enthusiast with a keen interest in software development, open-source contributions, and so I have honed my technical and collaborative skills.
+
+            I was also a Contributor to open-source projects, which has enhanced my ability to work in diverse teams and solve complex coding challenges. Additionally, I’ve gained valuable insights into Artificial Intelligence through the AICTE Internship on AI: Transformative Learning, part of TechSaksham by Microsoft and SAP.
+            
+            As an introvert, I thrive in focused environments and channel my creativity and problem-solving skills into coding and project development. I have built projects like an Amazon Clone and collaborated on innovative ideas, demonstrating my proficiency in both frontend and backend development.
+            
+            Beyond coding, I enjoy exploring new technologies, enhancing my skillset, and contributing to meaningful initiatives. My journey is fueled by curiosity, resilience, and a determination to make an impact in the tech community.
+        </p>
+    </div>
+
+    <div><h2 id="project" style="text-decoration:underline">PROJECTS<i class="fa-solid fa-clipboard"></i></h2>
+        <h4 style="text-align: center; text-decoration:underline">Amazon clone</h4>
+        <video src="./vdo2.mp4" height="300px" width="500px" controls loop autoplay></video>
+        <p>
+            This project is a clone of e-commerce web application inspired by Amazon. The platform replicates core features of an online shopping website, providing users with a seamless and intuitive experience for browsing, purchasing, and managing orders. It was built as part of a practical learning experience in web development, showcasing skills in frontend and backend technologies.
+        </p>
+
+           <ul><h4>Key Features:</h4> 
+
+            <li>User Authentication: Secure user login and signup with password encryption.</li>
+            <li>Product Listings: Dynamic display of products with filtering and search functionality.</li>
+            <li>Product Details: Detailed product pages with descriptions, pricing, and ratings.</li>
+            <li>Shopping Cart: Add-to-cart functionality with the ability to modify quantities or remove items.</li>
+            <li>Order Placement: Secure checkout process integrated with a payment gateway.</li>
+            <li>Order History: Users can view their past orders and track delivery status.</li>
+            <li>Responsive Design: Fully responsive UI for an optimal experience across devices.</li>
+            </ul>
+        </div>
+
+    <div><h2 style="text-decoration:underline">INTERESTS & HOBBIES<i class="fa-solid fa-thumbs-up"></i></h2>
+        <ul>
+            <li>Programming and Technology: Enjoy working on projects and open-source contributions.</li>
+            <li>Dancing:It is a fun and fulfilling way to express yourself and stay active. </li>
+            <li>Sketching:A wonderful way to express creativity and unwind. It allows you to capture moments, ideas, or your imagination</li>
+            <li>Cooking:A great way to be creative while also enjoying the satisfaction of preparing delicious meals. It allows you to experiment with new recipes, ingredients, and cooking techniques. </li>
+        
+        </ul>
+    </div>
+    <h2 style="text-decoration:underline">RESUME<i class="fa-solid fa-business-time"></i></h2> <a href="https://1drv.ms/b/c/650ddc10bd72dd4e/EcQYLmM5uRhButwjhLRy1RABCqYOXQNU0ay4M-y98unRdQ?e=oslY9f"><button style=" display:block;  margin-left: auto; margin-right:auto;">Click here</button></a>
+
+</body>
+</html>
